@@ -1,6 +1,6 @@
 ## Project structure for paper projects
 
-*I spent a lot of time trying to find the optimal way to organize my projects, and I found something that works (at least it works for me), so I thought I'd share it*
+*I spent a lot of time trying to find the optimal way to organize my projects, and I found something that works (at least it works for me), so I thought I'd share it. Feel free to ask questions, use the structure for your own projects, and suggest improvements*
 
 ### What is that ?
 
