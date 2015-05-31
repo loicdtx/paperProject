@@ -1,8 +1,10 @@
 ## Project structure for paper projects
 
+*I spent a lot of time trying to find the optimal way to organize my projects, and I found something that works (at least it works for me), so I thought I'd share it*
+
 ### What is that ?
 
-This repository details the project structure I follow for paper projects. When working on a scientific publication, it is easy to become overwhelmed by the complexity and diversity of the project itself. This may result in large amounts of overhead, looking for the script that produces a certain figure or trying to figure which version of the manuscript is the most up to date. With a good structure from the initiation of the project, this overhead can be reduced and time can be spent on doing actual work, rather than figuring which file does what. Re-opening a project after 3 months when reviewers comments arrive is then much easier.
+This repository details the project structure I follow for paper projects. When working on a scientific publication, it is easy to become overwhelmed by the complexity and diversity of the project itself. This may result in large amounts of overhead, looking for the script that produces a certain figure or trying to figure out which version of the manuscript is the most up to date. With a good structure from the initiation of the project, this overhead can be reduced and time can be spent on doing actual work, rather than figuring out which file does what. Re-opening a project after 3 months when reviewers comments arrive is then much easier.r.
 
 ### Exploring this repository
 
@@ -20,7 +22,7 @@ This directory, which we will name *project root* contains four important files.
 
 The `.gitignore` file lists the files that should be ignored by the version control system. My `.gitignore` has the following content.
 
-```
+```r
 .Rproj.user
 .Rhistory
 .RData
