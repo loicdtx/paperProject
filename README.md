@@ -22,7 +22,7 @@ This directory, which we will name *project root* contains four important files.
 
 The `.gitignore` file lists the files that should be ignored by the version control system. My `.gitignore` has the following content.
 
-```r
+```
 .Rproj.user
 .Rhistory
 .RData
@@ -61,7 +61,7 @@ LaTeX: pdfLaTeX
 
 The `.Rprofile` file is a file that gets sourced on RStudio startup, so it is conveinient for setting variables that you use all the time. For example, I use several machines, so that my data is in a different path depending on the machine I am using. The following code sets the path according to my machine name. I could paste this code snippet in the header of every script, but I'd rather have it in my `.Rprofile`. When I start my RStudio project the `path` variable is already set.
 
-```
+```r
 # Set path for all machines
 if(.Platform$OS.type == 'windows') {
     path <- 'F:/RS'
