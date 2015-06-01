@@ -1,3 +1,8 @@
 .Rproj.user
 .Rhistory
 .RData
+/latex/*
+*~
+!/latex/*.tex
+!/latex/*.bib
+!/latex/figs/
